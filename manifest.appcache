@@ -1,11 +1,11 @@
 CACHE MANIFEST
-# Revision 1400605242042
+# Revision 1400605585262
 
 CACHE:
 web/exploits.html
 web/vulnerabilities.html
 index.html
-contrib/README.html
+contrib.html
 exploits/README.html
 exploits/binary1.html
 exploits/binary2.html
