@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en-US" manifest="./manifest.appcache">
+    
     <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
+        
         
         <meta charset="UTF-8">
         <title>Appendix | CTF Field Guide</title>
@@ -31,8 +33,10 @@
 
         <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
         
+        
     </head>
     <body>
+        
         
 
         <link rel="stylesheet" href="gitbook/style.css">
@@ -40,13 +44,13 @@
 
 
         
-    <div class="book" data-github="trailofbits/ctf" data-level="8" data-basepath="." data-revision="1400703348966">
+    <div class="book" data-github="trailofbits/ctf" data-level="8" data-basepath="." data-revision="1400971917432">
     <div class="book-header">
     <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
     
     <a href="https://github.com/trailofbits/ctf" target="_blank" class="btn pull-left home-bookmark" aria-label="GitHub home"><i class="fa fa-bookmark-o"></i></a>
     
-    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
     <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
     <span id="font-settings-wrapper">
         <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
@@ -105,11 +109,14 @@
     </div>
     <ul class="summary">
         
+        
+        
         <li>
             <a href="https://github.com/trailofbits" target="blank" class="author-link">About the author</a>
         </li>
         
 
+        
         
         <li>
             <a href="https://github.com/trailofbits/ctf/issues" target="blank"class="issues-link">Questions and Issues</a>
@@ -117,11 +124,14 @@
         
 
         
+        
         <li>
             <a href="https://github.com/trailofbits/ctf/edit/master/appendix.md" target="blank" class="contribute-link">Edit and Contribute</a>
         </li>
         
 
+        
+        <li class="divider"></li>
         
 
         <li data-level="0" data-path="index.html">
@@ -361,12 +371,12 @@
 <pre><code>dan:dan $ cd ~/github
 dan:github $ mkdir ctf
 dan:github $ cd ctf
-dan:github $ git clone https://github.com/trailofbits/ctf .
+dan:github $ git clone git@github.com:trailofbits/ctf.git .
 </code></pre><p>Next, clone the gh-pages branch into another folder inside the same parent. In this directory, switch to the gh-pages branch and delete the master branch.</p>
 <pre><code>dan:dan $ cd ~/github
 dan:github $ mkdir ctf-pages
 dan:github $ cd ctf-pages
-dan:ctf-pages $ git clone https://github.com/trailofbits/ctf .
+dan:ctf-pages $ git clone git@github.com:trailofbits/ctf.git .
 dan:ctf-pages $ git checkout origin/gh-pages -b gh-pages
 dan:ctf-pages $ git branch -d master
 dan:ctf-pages $ git branch
@@ -403,10 +413,12 @@ dan:ctf-pages $ git branch
 
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"ga":{"token":"UA-37017099-3"}};
+    var config = {"ga":{"token":"UA-37017099-3"},"fontSettings":{"theme":"night"}};
     gitbook.start(config);
 });
 </script>
 
+        
     </body>
+    
 </html>
